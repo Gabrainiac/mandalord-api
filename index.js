@@ -10,7 +10,7 @@ app.get("/instance/:id/files", (req, res) => {
         {
             path: "mods/test.jar",
             downloads: [
-                "https://example.com/test.jar"
+                "https://github.com/Gabrainiac/mc-mods/releases/download/mods/architectury-9.2.14-forge.jar"
             ],
             size: 12345,
             hashes: {

@@ -5,7 +5,7 @@ app.get("/", (req, res) => {
     res.send("API funcionando");
 });
 
-app.get("/instance/1/files", (req, res) => {
+app.get("/instance/:id/files", (req, res) => {
     res.json([
         {
             path: "mods/test.jar",
